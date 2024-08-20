@@ -2,6 +2,8 @@ name: Call Action
 
 on:
   workflow_call:
+    inputs:
+      test-param: Hello It is Me !
 
 jobs:
   ping-pong:
