@@ -1,0 +1,11 @@
+name: Call Action
+
+on:
+  workflow_call:
+
+jobs:
+  ping-pong:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call This Action
+        run: echo This is the happy world !!
