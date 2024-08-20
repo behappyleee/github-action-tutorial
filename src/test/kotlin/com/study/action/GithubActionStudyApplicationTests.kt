@@ -8,6 +8,6 @@ class GithubActionStudyApplicationTests {
 
     @Test
     fun contextLoads() {
-    }
 
+    }
 }
