@@ -11,8 +11,10 @@ jobs:
 
     steps:
       - name: Print Hello
-        run: echo Hello World !
-
+        run: |
+          echo Hello World !
+          Author : ${{ github.actor }}
+          Workspace: ${{ github.workspace }}
 
 
 
